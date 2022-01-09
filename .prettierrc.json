@@ -1,19 +1,21 @@
 {
-  "arrowParens": "avoid",
+  "arrowParens": "always",
   "bracketSpacing": true,
-  "htmlWhitespaceSensitivity": "ignore",
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
   "insertPragma": false,
   "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
   "printWidth": 120,
-  "proseWrap": "never",
+  "proseWrap": "preserve",
   "quoteProps": "as-needed",
   "requirePragma": false,
   "semi": true,
   "singleQuote": false,
-  "tabWidth": 2,
-  "trailingComma": "all",
-  "useTabs": true,
+  "tabWidth": 4,
+  "trailingComma": "es5",
+  "useTabs": false,
   "vueIndentScriptAndStyle": false,
-  "singleAttributePerLine": false
+  "filepath": "c:\\Users\\1\\Documents\\Новая папка (2)\\github\\fe-48-on\\index.html",
+  "parser": "html"
 }
