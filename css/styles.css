@@ -1,3 +1,5 @@
+/* -------------------- BASIC RULES -------------------- */
+
 :root {
     --accent-color: #2196f3;
     --text-color: #212121;
@@ -7,24 +9,17 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
+a:hover,
 a:focus {
     text-decoration: none;
 }
 
+/* a:focus {
+    text-decoration: none;
+} */
+
 ul {
     list-style-type: none;
-}
-
-.logo-nav:hover {
-    color: #000000;
-}
-
-.logo-footer:hover {
-    color: #ffffff;
 }
 
 .logo-nav {
@@ -37,7 +32,7 @@ ul {
     letter-spacing: 0.03em;
 }
 
-/* ---------- HEADER ---------- */
+/* -------------------- HEADER -------------------- */
 
 .head-white {
     background-color: #ffffff;
@@ -46,6 +41,10 @@ ul {
 .logo-nav > span {
     font-family: Raleway;
     color: var(--accent-color);
+}
+
+.logo-nav:hover {
+    color: #000000;
 }
 
 .nav-list {
@@ -62,13 +61,14 @@ ul {
     color: var(--text-color);
 }
 
-.nav-list a:hover {
-    color: var(--accent-color);
-}
-
+.nav-list a:hover,
 .nav-list a:focus {
     color: var(--accent-color);
 }
+
+/* .nav-list a:focus {
+    color: var(--accent-color);
+} */
 
 .adress-list a {
     font-family: Roboto;
@@ -88,7 +88,22 @@ ul {
     color: var(--accent-color);
 }
 
-/* ---------- MAIN ---------- */
+/* -------------------- MAIN -------------------- */
+.hero {
+    background: #2f303a;
+}
+
+.hero-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
 .button {
     font-family: Roboto;
     font-style: normal;
@@ -101,7 +116,22 @@ ul {
     background-color: #f5f4fa;
 }
 
-.button:hover {
+.hero-button {
+    background-color: var(--accent-color);
+}
+
+.button-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    color: #ffffff;
+}
+
+.button:hover,
+.button:focus {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -113,6 +143,18 @@ ul {
     background-color: var(--accent-color);
 }
 
+/* .button:focus {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background-color: var(--accent-color);
+} */
+
 .title {
     font-family: Roboto;
     font-style: normal;
@@ -123,6 +165,37 @@ ul {
     color: var(--text-color);
 }
 
+.benefits-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.benefits-discription {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.activity-title,
+.team-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 .gallery-category {
     font-family: Roboto;
     font-style: normal;
@@ -133,7 +206,26 @@ ul {
     color: #757575;
 }
 
-/* ---------- FOOTER ---------- */
+.team-names {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-positions {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* -------------------- FOOTER -------------------- */
 .logo-footer > span {
     font-family: Raleway;
     color: var(--accent-color);
@@ -151,6 +243,10 @@ ul {
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
+}
+
+.logo-footer:hover {
+    color: #ffffff;
 }
 
 .adress-map {
