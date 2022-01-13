@@ -5,16 +5,19 @@
 a {
     text-decoration: none;
 }
-a:hover,
+a:hover {
+    text-decoration: none;
+}
 a:focus {
     text-decoration: none;
-    color: var(--accent-color);
 }
 
-.logo-nav > span,
-.logo-footer > span {
-    font-family: Raleway;
-    color: var(--accent-color);
+.logo-nav:hover {
+    color: #000000;
+}
+
+.logo-footer:hover {
+    color: #ffffff;
 }
 
 .logo-nav {
@@ -26,6 +29,69 @@ a:focus {
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
 }
+
+/* ---------- HEADER ---------- */
+
+.head-white {
+    background-color: #ffffff;
+}
+
+.logo-nav > span {
+    font-family: Raleway;
+    color: var(--accent-color);
+}
+.nav-list {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-list a {
+    color: #212121;
+}
+.nav-list a:hover {
+    color: var(--accent-color);
+}
+.nav-list a:focus {
+    color: var(--accent-color);
+}
+
+/* ---------- MAIN ---------- */
+
+.title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.gallery-category {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ---------- FOOTER ---------- */
+.logo-footer > span {
+    font-family: Raleway;
+    color: var(--accent-color);
+}
+
+.footer {
+    background: #2f303a;
+}
+
 .logo-footer {
     font-family: Raleway;
     font-style: normal;
@@ -36,6 +102,12 @@ a:focus {
     letter-spacing: 0.03em;
 }
 
-.footer {
-    background: #2f303a;
+.adress-map {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #ffffff;
 }
