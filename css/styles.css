@@ -1,14 +1,41 @@
 :root {
-    color: red;
-}
-body {
-    color: red;
+    --accent-color: #2196f3;
 }
 
-p {
-    color: red;
+a {
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: var(--accent-color);
 }
 
-b {
-    color: aqua;
+.logo-nav > span,
+.logo-footer > span {
+    font-family: Raleway;
+    color: var(--accent-color);
+}
+
+.logo-nav {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+}
+.logo-footer {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+}
+
+.footer {
+    background: #2f303a;
 }
