@@ -78,6 +78,10 @@ ul {
     color: var(--accent-color);
 }
 
+.nav-list-item > .current {
+    color: var(--accent-color);
+}
+
 /* -------------------- MAIN -------------------- */
 .hero {
     background: #2f303a;
